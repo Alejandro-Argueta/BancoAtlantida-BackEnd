@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiCardStatus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a13f60d366d9e69586e73f973ed45dd704e26bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f336577b366544da11cb82d42127c0026ec9dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiCardStatus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiCardStatus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

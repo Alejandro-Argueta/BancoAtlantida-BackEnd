@@ -21,7 +21,7 @@ namespace WebApiCardStatus.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(200, Type = typeof(IEnumerable<Users>))]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<UsersDto>))]
         public IActionResult GetUsers()
         {
             var users = _mapper.Map<List<UsersDto>>(_usersRepository.GetUsers());
@@ -32,8 +32,8 @@ namespace WebApiCardStatus.Controllers
             return Ok(users);
         }
 
-        [HttpGet("id")]
-        [ProducesResponseType(200, Type = typeof(Users))]
+        [HttpGet("{id}")]
+        [ProducesResponseType(200, Type = typeof(UsersDto))]
         [ProducesResponseType(400)]
         public IActionResult GetUser(int id)
         {
@@ -48,6 +48,66 @@ namespace WebApiCardStatus.Controllers
             return Ok(user);
         }
 
+        [HttpPost]
+        [ProducesResponseType(201, Type = typeof(UsersDto))]
+        [ProducesResponseType(400)]
+        public IActionResult AddUser([FromBody] UsersDto userDto)
+        {
+            if (userDto == null)
+            {
+                return BadRequest("User object is null");
+            }
 
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var userToAdd = _mapper.Map<Users>(userDto);
+            _usersRepository.AddUser(userToAdd);
+
+            return CreatedAtAction(nameof(GetUser), new { id = userToAdd.Id }, userDto);
+        }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult UpdateUser(int id, [FromBody] UsersDto userDto)
+        {
+            if (userDto == null || id != userDto.Id)
+            {
+                return BadRequest("Invalid user object");
+            }
+
+            if (!_usersRepository.UserExist(id))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var userToUpdate = _mapper.Map<Users>(userDto);
+            _usersRepository.UpdateUser(userToUpdate);
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteUser(int id)
+        {
+            if (!_usersRepository.UserExist(id))
+            {
+                return NotFound();
+            }
+
+            _usersRepository.DeleteUser(id);
+
+            return NoContent();
+        }
     }
 }

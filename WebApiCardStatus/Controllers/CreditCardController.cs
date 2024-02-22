@@ -75,5 +75,21 @@ namespace WebApiCardStatus.Controllers
             return Ok(creditCard);
         }
 
+        [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteCreditCard(int id)
+        {
+            var creditCard = _creditCardRepository.GetCreditCard(id);
+            if (creditCard == null)
+            {
+                return NotFound();
+            }
+
+            _creditCardRepository.DeleteCreditCard(id);
+
+            return NoContent();
+        }
+
     }
 }

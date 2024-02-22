@@ -36,6 +36,14 @@ namespace WebApiCardStatus.Data
             return _context.CreditCards.Any(p => p.Id == id);
         }
 
-
+        public void DeleteCreditCard(int id)
+        {
+            var cardToDelete = _context.CreditCards.Find(id);
+            if (cardToDelete != null)
+            {
+                _context.CreditCards.Remove(cardToDelete);
+                _context.SaveChanges();
+            }
+        }
     }
 }

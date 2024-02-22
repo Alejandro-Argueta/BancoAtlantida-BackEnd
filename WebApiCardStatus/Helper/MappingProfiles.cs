@@ -9,8 +9,11 @@ namespace WebApiCardStatus.Helper
         public MappingProfiles()
         {
             CreateMap<CreditCard, CreditCardDto>();
+            CreateMap<CreditCardDto, CreditCard>();
             CreateMap<Users, UsersDto>();
+            CreateMap<UsersDto, Users>();
             CreateMap<TransactionType, TransactionTypeDto>();
+            CreateMap<TransactionTypeDto, TransactionType>();
             CreateMap<Transactions, TransactionsDto>();
             CreateMap<TransactionsDto, Transactions>();
         }

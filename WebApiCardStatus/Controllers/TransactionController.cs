@@ -80,5 +80,49 @@ namespace WebApiCardStatus.Controllers
             return Ok("Transaccion Realizada");
 
         }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateTransactions(int id, [FromBody] TransactionsDto transactionsDto)
+        {
+            if (transactionsDto == null || id != transactionsDto.Id)
+            {
+                return BadRequest("Invalid TransactionsDto object or ID mismatch");
+            }
+
+            if (!_transactionRepository.TransactionExist(id))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var transactionsToUpdate = _mapper.Map<Transactions>(transactionsDto);
+            _transactionRepository.UpdateTransactions(transactionsToUpdate);
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteTransactions(int id)
+        {
+            var transactions = _transactionRepository.GetTransaction(id);
+            if (transactions == null)
+            {
+                return NotFound();
+            }
+
+            _transactionRepository.DeleteTransactions(id);
+
+            return NoContent();
+        }
     }
 }

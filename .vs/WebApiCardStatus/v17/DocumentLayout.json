@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\migrations\\20240217144518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\migrations\\20240217144518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\controllers\\creditcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\controllers\\creditcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\repository\\creditcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\repository\\creditcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\interfaces\\icreditcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\interfaces\\icreditcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\repository\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\repository\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\interfaces\\itransactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\interfaces\\itransactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\controllers\\transactiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\controllers\\transactiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\repository\\transactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\repository\\transactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\interfaces\\itransactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\interfaces\\itransactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\migrations\\20240217144518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\migrations\\20240217144518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|c:\\users\\dell\\desktop\\proyecto prueba\\bancoatlantida-backend\\webapicardstatus\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85448A7-BC3C-4410-884A-758DB7631119}|WebApiCardStatus\\WebApiCardStatus.csproj|solutionrelative:webapicardstatus\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +62,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditCardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\CreditCardRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Repository\\CreditCardRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\CreditCardRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Repository\\CreditCardRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T15:40:25.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICreditCardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ICreditCardRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Interfaces\\ICreditCardRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ICreditCardRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Interfaces\\ICreditCardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T15:40:18.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Controllers\\TransactionController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T15:31:47.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\TransactionsRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Repository\\TransactionsRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\TransactionsRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Repository\\TransactionsRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T15:00:21.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreditCardController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\CreditCardController.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Controllers\\CreditCardController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\CreditCardController.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Controllers\\CreditCardController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwFAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T04:34:42.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITransactionsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ITransactionsRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Interfaces\\ITransactionsRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ITransactionsRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Interfaces\\ITransactionsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:59:27.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\TransactionTypeRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Repository\\TransactionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Repository\\TransactionTypeRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Repository\\TransactionTypeRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAASwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:29:19.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\TransactionTypeController.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Controllers\\TransactionTypeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\TransactionTypeController.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Controllers\\TransactionTypeController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAqwGgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:30:24.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T02:33:50.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITransactionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ITransactionTypeRepository.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Interfaces\\ITransactionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\ITransactionTypeRepository.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Interfaces\\ITransactionTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:25:06.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Helper\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiCardStatus\\Helper\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Helper\\MappingProfiles.cs",
+              "RelativeToolTip": "WebApiCardStatus\\Helper\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:19:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "20240217144518_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Migrations\\20240217144518_InitialCreate.cs",
               "RelativeDocumentMoniker": "WebApiCardStatus\\Migrations\\20240217144518_InitialCreate.cs",
@@ -43,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Seed.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Seed.cs",
               "RelativeDocumentMoniker": "WebApiCardStatus\\Seed.cs",
@@ -51,34 +230,7 @@
               "RelativeToolTip": "WebApiCardStatus\\Seed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T05:43:24.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreditCardController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\CreditCardController.cs",
-              "RelativeDocumentMoniker": "WebApiCardStatus\\Controllers\\CreditCardController.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Controllers\\CreditCardController.cs",
-              "RelativeToolTip": "WebApiCardStatus\\Controllers\\CreditCardController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T04:34:42.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
-              "RelativeToolTip": "WebApiCardStatus\\Interfaces\\IUsersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T02:33:50.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T05:43:24.666Z"
             }
           ]
         }

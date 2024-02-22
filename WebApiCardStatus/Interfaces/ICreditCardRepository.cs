@@ -8,5 +8,6 @@ namespace WebApiCardStatus.Interfaces
 
         CreditCard GetCreditCard(int id);
         bool CreditCardExist(int id);
+        void DeleteCreditCard(int id);
     }
 }

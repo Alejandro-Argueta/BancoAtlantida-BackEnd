@@ -10,5 +10,7 @@ namespace WebApiCardStatus.Interfaces
         bool TransactionExist(int id);
         bool CreateTransaction(Transactions transactions);
         bool Save();
+        void UpdateTransactions(Transactions transactions);
+        void DeleteTransactions(int id);
     }
 }
