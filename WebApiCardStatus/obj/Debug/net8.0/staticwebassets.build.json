@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hPMNSH0M4iksV7dbTPNwSROnI8yxJTy0Pqg0IMuAYEw=",
+  "Source": "WebApiCardStatus",
+  "BasePath": "_content/WebApiCardStatus",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
