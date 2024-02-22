@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwhRTj167SprhUuLkZwNWl+6adKNkkbgC4bp2QTH7uyQ28N8teiUrGHhIiD1EFG0l7LsOcsTpwE6ajrxaX5rDg==",
+  "dgSpecHash": "H5iztDe7DEoPgmRICN2O/xAsxFEa9kKBE8bt/6lk0EhAWLB5QN7eBinfRGgubJ7VANNPPF7yPqR+iNwV7k7ctQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\WebApiCardStatus.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\WebApiCardStatus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

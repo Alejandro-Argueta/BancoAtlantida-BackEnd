@@ -46,6 +46,8 @@ namespace WebApiCardStatus.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Number = table.Column<string>(type: "nvarchar(16)", maxLength: 16, nullable: false),
                     Limit = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    percentageMinimumBalance = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    interestPercentage = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     UserID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

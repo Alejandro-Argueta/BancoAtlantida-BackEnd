@@ -29,8 +29,8 @@ namespace WebApiCardStatus
             dataContext.SaveChanges();
 
             // Agregar tarjetas de crédito
-            var creditCard1 = new CreditCard { Number = "1111222233334444", Limit = 5000, User = user1 };
-            var creditCard2 = new CreditCard { Number = "5555666677778888", Limit = 10000, User = user2 };
+            var creditCard1 = new CreditCard { Number = "1111222233334444", Limit = 5000, User = user1, interestPercentage = 15.5m, percentageMinimumBalance = 10.0m };
+            var creditCard2 = new CreditCard { Number = "5555666677778888", Limit = 10000, User = user2, interestPercentage = 18.0m, percentageMinimumBalance = 12.0m };
             dataContext.CreditCards.AddRange(creditCard1, creditCard2);
             dataContext.SaveChanges();
 
@@ -42,10 +42,9 @@ namespace WebApiCardStatus
 
             // Agregar transacciones
             var transaction1 = new Transactions { Date = DateTime.Now, Description = "Compra de alimentos", Amount = 100, TransactionType = transactionType1, CreditCard = creditCard1 };
-            var transaction2 = new Transactions { Date = DateTime.Now, Description = "Pago de facturasssssssss", Amount = 50, TransactionType = transactionType2, CreditCard = creditCard2};
+            var transaction2 = new Transactions { Date = DateTime.Now, Description = "Pago de facturas", Amount = 50, TransactionType = transactionType2, CreditCard = creditCard2 };
             dataContext.Transactions.AddRange(transaction1, transaction2);
             dataContext.SaveChanges();
         }
-
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\WebApiCardStatus.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\WebApiCardStatus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\WebApiCardStatus.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\WebApiCardStatus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\WebApiCardStatus.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\WebApiCardStatus.csproj",
         "projectName": "WebApiCardStatus",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\WebApiCardStatus.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\WebApiCardStatus.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\WebApiCardStatus\\WebApiCardStatus\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyecto prueba\\BancoAtlantida-BackEnd\\WebApiCardStatus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
